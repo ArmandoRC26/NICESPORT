@@ -252,15 +252,59 @@ h3 {
     font-size: 1.7rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    text-decoration: none;
 }
 
 .btn:hover {
-    background-color: var(--azul);
+    background-color: var(--secundario);
     color: var(--white);
-    border: 1px solid var(--azul);
+    border: 1px solid var(--secundario);
 }
 
 .price {
     font-weight: 700;
     font-size: 1.8rem;
+}
+
+/* Detalles */
+.detalles{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.detalle-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 3rem;
+}
+.detalles .img-fluid{
+    max-width: 500px;
+    width: 100%;
+    margin: 5rem auto;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .2);
+    
+} 
+.detalles-content{
+    padding: 2rem;
+}
+.detalles-content h3{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.detalles-content .precio span{
+    color: var(--secundario);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.detalles-content .description{
+    padding-top: 2rem;
+}
+.detalles-content .description span{
+    line-height: 2.8rem;
+}
+@media only screen and (max-width: 840px){
+    .detalle-grid{
+        grid-template-columns: 1fr;
+    }
 }
