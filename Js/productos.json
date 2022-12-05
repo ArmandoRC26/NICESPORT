@@ -1,0 +1,38 @@
+[
+  {
+    "precio": 165,
+    "id": 1,
+    "title": "Guantes voit",
+    "image": "IMG/Guantes voit.jpg"
+  },
+  {
+    "precio": 100,
+    "id": 2,
+    "title": "Medias deportivas 3 pares",
+    "image": "IMG/MEDIAS.png" 
+  },
+  {
+    "precio": 450,
+    "id": 3,
+    "title": "Under Armour Loose Fit para hombre",
+    "image": "IMG/Playera deportiva armour.jpg"
+  },
+  {
+    "precio": 10099,
+    "id": 4,
+    "title": "Tennis deportivo adidas",
+    "image": "IMG/Tennis deportivo adidas.PNG"
+  },
+  {
+    "precio": 500,
+    "id": 5,
+    "title": "Tennis deportivo charly para dama",
+    "image": "IMG/Tennis deportivo para dama.PNG"
+  },
+  {
+    "precio": 800,
+    "id": 6,
+    "title": "Tennis deportivo charly para niño",
+    "image": "IMG/Tennis deportivo para niño.PNG"
+  }
+]
