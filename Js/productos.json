@@ -34,5 +34,81 @@
     "id": 6,
     "title": "Tennis deportivo charly para niño",
     "image": "IMG/Tennis deportivo para niño.PNG"
+  
+  },
+  
+  {
+    "precio": 189,
+    "id": 7,
+    "title": "Short deportivo X-SHADOW para hombre",
+    "image": "IMG/Short deportivo para hombre.PNG"
+  },
+  {
+    "precio": 150,
+    "id": 8,
+    "title": "Short deportivo de cintura para mujer",
+    "image": "IMG/Short deportivo para mujer.PNG"
+  },
+  {
+    "precio": 200,
+    "id": 9,
+    "title": "Short eportivo sportline Juvenil",
+    "image": "IMG/Short deportivo juvenil.PNG"
+  },
+  {
+    "precio": 160,
+    "id": 10,
+    "title": "Gorra deportiva de adidas para hombre",
+    "image": "IMG/Gorra adidas.PNG"
+  },
+  {
+    "precio": 320,
+    "id": 11,
+    "title": "Gorras deportivas ajustables para mujer",
+    "image": "IMG/Gorras ajustables para mujer.PNG"
+  },
+  {
+    "precio": 260,
+    "id": 12,
+    "title": "Gorra color azul de los dodgers",
+    "image": "IMG/Gorra de los dodgers.PNG"
+  },
+  {
+    "precio": 1257,
+    "id": 13,
+    "title": "RAWLINGS-Guante de beisbol",
+    "image": "IMG/Guante de beisbol 1.PNG"
+  },
+  {
+    "precio": 1300,
+    "id": 14,
+    "title": "Guante de beisbol de la marca Wilson",
+    "image": "IMG/Guante de beisbol 2.PNG"
+  },
+  {
+    "precio": 1450,
+    "id": 15,
+    "title": "Bat de beisbol-madera maple premium",
+    "image": "IMG/Bates de beisbol.PNG"
+  },
+  {
+    "precio": 500,
+    "id": 16,
+    "title": "Balón de fútbol molten forza FG 1500",
+    "image": "IMG/Balon molten.PNG"
+  },
+  {
+    "precio": 250,
+    "id": 17,
+    "title": "Balón de Voleibol voit soft touch número 5",
+    "image": "IMG/Balon voleybol.PNG"
+  },
+  {
+    "precio": 1600,
+    "id": 18,
+    "title": "Kit de entrenamiento completo",
+    "image": "IMG/Kit de entrenamiento.PNG"
   }
+  
+  
 ]
