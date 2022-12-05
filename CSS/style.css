@@ -352,11 +352,18 @@ p{
 }
 
 /* Detalles */
+.texto-justificado{
+text-align: justify;
+font-weight: normal;
+line-height: 200%;
+}
+
+
 .detalles{
     height: 100vh;
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 .detalle-grid{
     display: grid;
