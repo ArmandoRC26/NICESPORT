@@ -4,6 +4,7 @@
 const cards = document.getElementById('cards')
 const items = document.getElementById('items')
 const footer = document.getElementById('footer')
+//const detalles = document.getElementById('detalles')
 
 //template
 const templateCard = document.getElementById('template-card').content  //.content para acceder a los elementos 
@@ -27,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //al hcer clic al boton comprar
 cards.addEventListener('click', e => {
     addCarrito(e)
+   // addVista(e)
 })
 
 items.addEventListener('click', e => {
@@ -55,6 +57,7 @@ const pintarCards = data => {
         templateCard.querySelector('p').textContent = producto.precio //accedemos al precio
         templateCard.querySelector('img').setAttribute("src", producto.image) //accedemos a la img
         templateCard.querySelector('.btn-carrito').dataset.id = producto.id //id del producto
+       // templateCard.querySelector('.btn-vista').dataset.id = producto.id // id vista
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     });
@@ -75,6 +78,7 @@ const setCarrito = objeto =>{
     //console.log(objeto)
     const producto = {
         id: objeto.querySelector('.btn-carrito').dataset.id,
+        //id: objeto.querySelector('.btn-vista').dataset.id,
         title: objeto.querySelector('h5').textContent,
         precio: objeto.querySelector('p').textContent,
         cantidad: 1
@@ -95,6 +99,7 @@ const pintarCarrito = () => {
         templateCarrito.querySelectorAll('td')[0].textContent = producto.title
         templateCarrito.querySelectorAll('td')[1].textContent = producto.cantidad//porque accedera a todos lo td en su segundo elemento. en un array el primero = 0
         templateCarrito.querySelector('.btn-info').dataset.id = producto.id
+       // templateCard.querySelector('.btn-vista').dataset.id = producto.id
         templateCarrito.querySelector('.btn-danger').dataset.id = producto.id
         templateCarrito.querySelector('span').textContent = producto.cantidad * producto.precio
 
