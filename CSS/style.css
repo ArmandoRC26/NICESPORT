@@ -217,6 +217,7 @@ h3,h5 {
     gap: 3rem 1rem;
 }
 
+
 .producto {
     display: flex;
     flex-direction: column;
@@ -225,8 +226,9 @@ h3,h5 {
 }
 
 .card-img-top {
-    width: 310px;
+    width: 350px;
 }
+
 
 .card-body {
     padding: 1rem;
@@ -247,8 +249,8 @@ h3,h5 {
 .btn-carrito {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem 0;
+    align-items: stretch;
+    padding: 20rem 0;
     text-align: center;
     
 }
@@ -284,6 +286,12 @@ p{
     font-weight: 700;
     font-size: 1.8rem;
     text-align: center;
+}
+.price{
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(0, 0, 128);
 }
 
 /* Detalles */
